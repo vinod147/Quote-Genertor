@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(./images/librabry.jpg);
+    font-family: 'Roboto',sans-serif;
+}
+.container .main-content {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    width: 100%;
+    height:50vh;
+    padding-top: 20px;
+    box-shadow: 0 0 10px;
+}
+.header{
+    text-align: center;
+    background-color: black;
+    border: solid 2px #ffffff;
+    color: aliceblue;
+    height: 50px;
+    /* padding-top: 10px; */
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    
+   
+}
+.button-area{
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+.person{
+    padding-left: 200px;
+    padding-top: 20px;
+    color: crimson;
+}
+.text-area{
+    font-size: 1.7rem;
+}
+/* #btn-quotes{
+    background-color: black;
+    color: #ffffff;
+    width:130px;
+    height:40px;
+    border-radius:2rem;
+    font-size:1rem;
+    font-family: 'Roboto',sans-serif;
+    cursor: pointer;
+
+} */
